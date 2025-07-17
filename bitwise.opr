@@ -1,0 +1,17 @@
+#include <iostream>
+#include <bitset>
+using namespace std;
+int main(){
+    int a;
+    cin>>a;
+    bitset<8>b(a);
+    cout<<b;
+    int f=25;
+    cout<<(a&f)<<endl;
+    cout<<(a|f)<<endl;
+    cout<<(a<<f)<<endl;
+    cout<<(a>>f)<<endl;
+    cout<<(!a)<<endl;
+    cout<<(a^f);
+
+}
